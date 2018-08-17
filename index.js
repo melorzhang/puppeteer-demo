@@ -20,7 +20,8 @@ const logger = log4js.getLogger('log');
 
 const ifOpenBrowser=false;
 const lanchConf={
-  headless:!ifOpenBrowser
+    headless:!ifOpenBrowser,
+    // executablePath: 'C:/Users/xxx/Downloads/chromium/chrome-win32/chrome.exe',//mac用户自行查看文档更改
 };
 
 const sleep=(time)=>{
